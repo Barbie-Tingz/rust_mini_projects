@@ -7,11 +7,11 @@ Nobody knows what mood he'll be in today — could be anywhere from "at peace wi
 giving a hint each time they're off. **Twist:** Sandwich is impatient — the longer it takes to guess, the worse his mood gets. 
 Every so often (you decide how often), the secret number itself creeps upward, so a guess that would've been right two turns ago might be wrong now.*/
 
-// 1. Import your crates. (Standard Input/Output & Random Generator)
+// 1. Import your crates. (Standard Input/Output & Random Generator & Ordering)
 // 2. Create your main function. 
-// 3. Generate the secret mood number (1-100). 
+// 3. Generate the secret mood number (1-100).
 // 4. Set up guess counter. 
-// 5. Start main loop. 
+// 5. Start main loop.      
 // 6. Print a prompt to the terminal. 
 // 7. Read player's input. 
 // 8. Convert the user's input from a string to a number. 

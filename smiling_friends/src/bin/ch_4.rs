@@ -19,3 +19,4 @@ look at the clipboard without taking responsibility for it.*/
 // 7. Call that function and confirm you can still use the original variable afterward.
 // 8. (Optional) Write a function that takes a mutable reference (&mut String) so the manager
 //    could write a note on the clipboard without ever owning it.
+

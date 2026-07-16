@@ -19,12 +19,12 @@ The theme: you run a deeply under-resourced friendship agency in a world where r
 
 ---
 
-## Chapter 3 — "Cheer-Up Score Calculator"
+## Chapter 3 — "Coffee Run Disaster Calculator"
 **Book topic:** Common Programming Concepts
 
-**The bit:** A pigeon filed a formal complaint against the agency, and a caseworker was sent to personally apologize to it.
+**The bit:** An employee was sent to get coffee for the entire office and returned with a catastrophically wrong order — several drinks swapped, one completely missing, and someone's name spelled in a way that started an argument.
 
-**Your mission:** Write a function that takes a couple of numbers about the apology (your choice — how many breadcrumbs, how sincere it was, whatever's fun) and turns them into a score. Then print a different message depending on how the score comes out.
+**Your mission:** Write a function that takes three specific numbers about the coffee run — **wrong orders** (how many drinks came out wrong), **minutes late**, and **people upset** (how many coworkers are mad about it) — and turns them into a single "disaster score." Then print a different verdict depending on how the score comes out.
 
 *Numbered step comments for this one live in `ch_3.rs` in your repo.*
 

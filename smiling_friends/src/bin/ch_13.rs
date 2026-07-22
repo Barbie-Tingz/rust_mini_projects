@@ -1,7 +1,7 @@
 /* Sort by Chaos Level
 
-**The bit:** Management wants to know which cases are the biggest disasters, ranked,
-without anyone having to read them all by hand.
+**The bit:** Management wants a weekly "Chaos Leaderboard" for the company newsletter,
+ranking every open client by weirdness rating, most unhinged first.
 
 **Your mission:** Use iterators and closures to filter, sort, and summarize your
 roster or case list.*/

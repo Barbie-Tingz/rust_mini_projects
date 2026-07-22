@@ -1,7 +1,9 @@
 /* When the Mission Goes Wrong
 
-**The bit:** Missions go sideways constantly at this agency — case files go missing,
-employees quit mid-shift, clients vanish. The program shouldn't crash every time.
+**The bit:** Case #013 — the sequel to the Sandwich case, someone else legally changed
+their name to "Baguette" — has physically vanished from the filing cabinet the morning
+the follow-up is scheduled. An employee also quit via sticky note mid-shift, so their
+assigned cases now belong to nobody.
 
 **Your mission:** Handle those failures gracefully using Result and Option instead of
 letting the program panic.*/

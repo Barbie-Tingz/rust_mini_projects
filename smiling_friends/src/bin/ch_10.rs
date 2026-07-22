@@ -1,7 +1,7 @@
 /* Anyone Can Take a Case
 
-**The bit:** Doesn't matter if you're a seasoned employee or a brand-new intern — anyone
-can be sent out to attempt a cheer-up, as long as they're capable of it.
+**The bit:** Kevin the intern was hired yesterday and is already being dispatched solo
+to a client who insists he is, personally, a lighthouse.
 
 **Your mission:** Define a shared trait, implement it for more than one type, and write a
 generic function that works with anything implementing it.*/

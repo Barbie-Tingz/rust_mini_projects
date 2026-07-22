@@ -1,7 +1,10 @@
 /* Meet the Employees & Clients
 
-**The bit:** The agency finally needs actual records instead of vibes — time to define who
-its employees and clients actually are.
+**The bit:** The agency's paperwork has caught up with reality: management finally demands
+actual employee records after discovering nobody knows how many people currently work
+there. Your Employee is Debra, whose sanity has been in freefall since the swamp-landlord
+case. Your Client is a man whose case description reads: "insists his own shadow filed a
+restraining order against him."
 
 **Your mission:** Define structs for your core character types, so later chapters have
 something to build on.*/

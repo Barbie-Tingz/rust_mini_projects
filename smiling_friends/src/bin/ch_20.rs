@@ -1,7 +1,8 @@
 /* The Agency Server
 
-**The bit:** Every branch, every employee, every cursed object — it's all one system
-now, and clients are submitting requests over the internet like it's a real business.
+**The bit:** Following the swamp landlord's lawsuit, the agency is legally required to
+stop taking walk-ins and start accepting all client requests online instead — whether
+the office is ready for the internet or not.
 
 **Your mission:** Build a small multithreaded web server tying the earlier systems
 together.*/

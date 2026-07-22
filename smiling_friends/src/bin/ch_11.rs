@@ -1,7 +1,7 @@
 /* Quality Assurance (Sort Of)
 
-**The bit:** Someone should probably check that any of this actually works. Nobody's
-volunteered, so it falls to you.
+**The bit:** Corporate mandates a full audit of the cheer-up formula after the pigeon and
+Sandwich cases got accidentally double-booked into the same appointment slot last week.
 
 **Your mission:** Write unit tests for logic from earlier chapters.*/
 

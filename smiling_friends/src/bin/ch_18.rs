@@ -1,7 +1,8 @@
 /* Advanced Case Matching
 
-**The bit:** Some cases only make sense to escalate under very specific, oddly
-particular conditions — a simple if/else won't cut it anymore.
+**The bit:** New office policy: if a case is ExistentialCrisis *and* its weirdness rating
+is over 80, it gets escalated straight to the one senior caseworker who still answers
+her phone.
 
 **Your mission:** Use more advanced pattern matching to handle combinations of data
 at once.*/

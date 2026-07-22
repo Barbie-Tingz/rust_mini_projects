@@ -1,7 +1,8 @@
 /* The Shared Cursed Object
 
-**The bit:** Multiple open cases all reference the same cursed prop sitting in the
-break room, and everyone keeps touching it.
+**The bit:** The office stapler has started leaving stains shaped like bad ideas on any
+report touched by more than one employee, and at least three open cases now reference it
+as evidence.
 
 **Your mission:** Model a piece of shared, mutable state referenced from more than
 one place using Rc<RefCell<>>.*/

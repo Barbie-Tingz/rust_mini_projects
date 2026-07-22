@@ -1,7 +1,7 @@
 /* Case File Search CLI
 
-**The bit:** Somewhere in a filing cabinet is the one case file everyone needs, and
-nobody can find it by hand anymore.
+**The bit:** The swamp landlord's lawyer is calling back in ten minutes and someone needs
+every case file that mentions "swamp" before he does.
 
 **Your mission:** Build a small command-line tool that searches a text file for a
 keyword, similar to a mini `grep`.*/

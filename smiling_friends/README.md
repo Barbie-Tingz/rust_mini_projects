@@ -44,7 +44,7 @@ The theme: you run a deeply under-resourced friendship agency in a world where r
 ## Chapter 5 — "Meet the Employees & Clients"
 **Book topic:** Using Structs to Structure Related Data
 
-**The bit:** The agency finally needs actual records instead of vibes — time to define who its employees and clients actually are.
+**The bit:** The agency's paperwork has caught up with reality: management finally demands actual employee records after discovering nobody knows how many people currently work there. Your `Employee` is Debra, whose sanity has been in freefall since the swamp-landlord case. Your `Client` is a man whose case description reads: "insists his own shadow filed a restraining order against him."
 
 **Your mission:** Define structs for your core character types, so later chapters have something to build on.
 
@@ -55,7 +55,7 @@ The theme: you run a deeply under-resourced friendship agency in a world where r
 ## Chapter 6 — "Case Types & Emotional States"
 **Book topic:** Enums and Pattern Matching
 
-**The bit:** Not every case is the same, and not every employee is in the same headspace — time to give the agency some categories to work with.
+**The bit:** The office fern has started whispering stock tips to anyone who waters it — filed under `CursedObject`, naturally. Meanwhile Debra's mood has fully tipped into `Feral` after being assigned a second `ExistentialCrisis` case in the same week.
 
 **Your mission:** Add enums for case types and moods, and use pattern matching to respond differently depending on which variant you're dealing with.
 
@@ -66,7 +66,7 @@ The theme: you run a deeply under-resourced friendship agency in a world where r
 ## Chapter 7 — "Organize the Agency"
 **Book topic:** Managing Growing Projects with Packages, Crates, and Modules
 
-**The bit:** The codebase has gotten as messy as the actual office — time to give everything a proper filing system.
+**The bit:** The health inspector is coming Thursday, and it's just been discovered the entire office "system" is one unlabeled folder. Everything gets sorted into modules overnight in a panic.
 
 **Your mission:** Split your existing code into modules so related things live together.
 
@@ -77,7 +77,7 @@ The theme: you run a deeply under-resourced friendship agency in a world where r
 ## Chapter 8 — "The Case Files & Staff Roster"
 **Book topic:** Common Collections
 
-**The bit:** The agency needs an actual staff roster and a filing cabinet for open cases, instead of just remembering things.
+**The bit:** HR finally lets you hire a second employee, and the case backlog reveals a client whose file just says: "believes he has already achieved main character energy and refuses further intervention."
 
 **Your mission:** Store your employees in a Vec and your case files in a HashMap.
 
@@ -88,7 +88,7 @@ The theme: you run a deeply under-resourced friendship agency in a world where r
 ## Chapter 9 — "When the Mission Goes Wrong"
 **Book topic:** Error Handling
 
-**The bit:** Missions go sideways constantly at this agency — case files go missing, employees quit mid-shift, clients vanish. The program shouldn't crash every time.
+**The bit:** Case #013 — the sequel to the Sandwich case, someone else legally changed their name to "Baguette" — has physically vanished from the filing cabinet the morning the follow-up is scheduled. An employee also quit via sticky note mid-shift, so their assigned cases now belong to nobody.
 
 **Your mission:** Handle those failures gracefully using Result and Option instead of letting the program panic.
 
@@ -99,7 +99,7 @@ The theme: you run a deeply under-resourced friendship agency in a world where r
 ## Chapter 10 — "Anyone Can Take a Case"
 **Book topic:** Generic Types, Traits, and Lifetimes
 
-**The bit:** Doesn't matter if you're a seasoned employee or a brand-new intern — anyone can be sent out to attempt a cheer-up, as long as they're capable of it.
+**The bit:** Kevin the intern was hired yesterday and is already being dispatched solo to a client who insists he is, personally, a lighthouse.
 
 **Your mission:** Define a shared trait, implement it for more than one type, and write a generic function that works with anything implementing it.
 
@@ -110,7 +110,7 @@ The theme: you run a deeply under-resourced friendship agency in a world where r
 ## Chapter 11 — "Quality Assurance (Sort Of)"
 **Book topic:** Writing Automated Tests
 
-**The bit:** Someone should probably check that any of this actually works. Nobody's volunteered, so it falls to you.
+**The bit:** Corporate mandates a full audit of the cheer-up formula after the pigeon and Sandwich cases got accidentally double-booked into the same appointment slot last week.
 
 **Your mission:** Write unit tests for logic from earlier chapters.
 
@@ -121,7 +121,7 @@ The theme: you run a deeply under-resourced friendship agency in a world where r
 ## Chapter 12 — "Case File Search CLI"
 **Book topic:** An I/O Project — Building a Command Line Program
 
-**The bit:** Somewhere in a filing cabinet is the one case file everyone needs, and nobody can find it by hand anymore.
+**The bit:** The swamp landlord's lawyer is calling back in ten minutes and someone needs every case file that mentions "swamp" before he does.
 
 **Your mission:** Build a small command-line tool that searches a text file for a keyword, similar to a mini `grep`.
 
@@ -132,7 +132,7 @@ The theme: you run a deeply under-resourced friendship agency in a world where r
 ## Chapter 13 — "Sort by Chaos Level"
 **Book topic:** Functional Language Features — Iterators and Closures
 
-**The bit:** Management wants to know which cases are the biggest disasters, ranked, without anyone having to read them all by hand.
+**The bit:** Management wants a weekly "Chaos Leaderboard" for the company newsletter, ranking every open client by weirdness rating, most unhinged first.
 
 **Your mission:** Use iterators and closures to filter, sort, and summarize your roster or case list.
 
@@ -143,7 +143,7 @@ The theme: you run a deeply under-resourced friendship agency in a world where r
 ## Chapter 14 — "Package the Agency Toolkit"
 **Book topic:** More about Cargo and Crates.io
 
-**The bit:** Other branches want to use the same tools this branch built — time to package it up properly instead of copy-pasting files.
+**The bit:** A rival friendship agency across town heard about your cheer-up formula and wants to license it — which means it actually has to work outside of one messy file.
 
 **Your mission:** Turn your reusable logic into a proper library crate.
 
@@ -154,7 +154,7 @@ The theme: you run a deeply under-resourced friendship agency in a world where r
 ## Chapter 15 — "The Shared Cursed Object"
 **Book topic:** Smart Pointers
 
-**The bit:** Multiple open cases all reference the same cursed prop sitting in the break room, and everyone keeps touching it.
+**The bit:** The office stapler has started leaving stains shaped like bad ideas on any report touched by more than one employee, and at least three open cases now reference it as evidence.
 
 **Your mission:** Model a piece of shared, mutable state referenced from more than one place using `Rc<RefCell<>>`.
 
@@ -165,7 +165,7 @@ The theme: you run a deeply under-resourced friendship agency in a world where r
 ## Chapter 16 — "Multiple Branches, Multiple Crises"
 **Book topic:** Fearless Concurrency
 
-**The bit:** Several agency branches are all handling their own disasters at the same time, and none of them are waiting around for the others.
+**The bit:** At the exact same moment: Sandwich relapses in Branch A, the pigeon returns with a lawyer in Branch B, and the swamp landlord files a second lawsuit in Branch C.
 
 **Your mission:** Simulate multiple branches working concurrently using threads, with some shared state between them.
 
@@ -176,7 +176,7 @@ The theme: you run a deeply under-resourced friendship agency in a world where r
 ## Chapter 17 — "The Full Roster"
 **Book topic:** Object Oriented Programming Features
 
-**The bit:** The agency's staff is a genuinely mixed bag at this point — full-timers, interns, whatever else has wandered in — and they all need to be dispatched the same way.
+**The bit:** It's Career Day, and every employee type the agency has ever hired — interns, full-timers, and at least one who may not technically be alive — gets dispatched on cases simultaneously.
 
 **Your mission:** Use trait objects to store and use a mix of different types through one shared interface.
 
@@ -187,7 +187,7 @@ The theme: you run a deeply under-resourced friendship agency in a world where r
 ## Chapter 18 — "Advanced Case Matching"
 **Book topic:** Patterns and Matching
 
-**The bit:** Some cases only make sense to escalate under very specific, oddly particular conditions — a simple if/else won't cut it anymore.
+**The bit:** New office policy: if a case is `ExistentialCrisis` *and* its weirdness rating is over 80, it gets escalated straight to the one senior caseworker who still answers her phone.
 
 **Your mission:** Use more advanced pattern matching to handle combinations of data at once.
 
@@ -198,7 +198,7 @@ The theme: you run a deeply under-resourced friendship agency in a world where r
 ## Chapter 19 — "Custom Chaos Macros"
 **Book topic:** Advanced Features
 
-**The bit:** Some things need to be announced with maximum drama, repeatedly, and typing it out every time is getting old.
+**The bit:** After the fire alarm incident (still under investigation), the office needs a proper chaos-announcement system — and somebody, against everyone's advice, insists on touching the one raw pointer nobody asked them to touch.
 
 **Your mission:** Write a small custom macro, and take a careful, contained look at an unsafe block.
 
@@ -209,7 +209,7 @@ The theme: you run a deeply under-resourced friendship agency in a world where r
 ## Chapter 20 — "The Agency Server"
 **Book topic:** Final Project — Building a Multithreaded Web Server
 
-**The bit:** Every branch, every employee, every cursed object — it's all one system now, and clients are submitting requests over the internet like it's a real business.
+**The bit:** Following the swamp landlord's lawsuit, the agency is legally required to stop taking walk-ins and start accepting all client requests online instead — whether the office is ready for the internet or not.
 
 **Your mission:** Build a small multithreaded web server tying the earlier systems together.
 

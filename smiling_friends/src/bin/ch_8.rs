@@ -1,7 +1,8 @@
 /* The Case Files & Staff Roster
 
-**The bit:** The agency needs an actual staff roster and a filing cabinet for open cases,
-instead of just remembering things.
+**The bit:** HR finally lets you hire a second employee, and the case backlog reveals a
+client whose file just says: "believes he has already achieved main character energy and
+refuses further intervention."
 
 **Your mission:** Store your employees in a Vec and your case files in a HashMap.*/
 

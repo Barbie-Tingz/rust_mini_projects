@@ -1,7 +1,8 @@
 /* The Full Roster
 
-**The bit:** The agency's staff is a genuinely mixed bag at this point — full-timers,
-interns, whatever else has wandered in — and they all need to be dispatched the same way.
+**The bit:** It's Career Day, and every employee type the agency has ever hired — interns,
+full-timers, and at least one who may not technically be alive — gets dispatched on cases
+simultaneously.
 
 **Your mission:** Use trait objects to store and use a mix of different types through
 one shared interface.*/

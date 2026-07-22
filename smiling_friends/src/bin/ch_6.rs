@@ -1,7 +1,8 @@
 /* Case Types & Emotional States
 
-**The bit:** Not every case is the same, and not every employee is in the same headspace —
-time to give the agency some categories to work with.
+**The bit:** The office fern has started whispering stock tips to anyone who waters it —
+filed under CursedObject, naturally. Meanwhile Debra's mood has fully tipped into Feral
+after being assigned a second ExistentialCrisis case in the same week.
 
 **Your mission:** Add enums for case types and moods, and use pattern matching to respond
 differently depending on which variant you're dealing with.*/

@@ -1,7 +1,8 @@
 /* Custom Chaos Macros
 
-**The bit:** Some things need to be announced with maximum drama, repeatedly, and
-typing it out every time is getting old.
+**The bit:** After the fire alarm incident (still under investigation), the office needs
+a proper chaos-announcement system — and somebody, against everyone's advice, insists on
+touching the one raw pointer nobody asked them to touch.
 
 **Your mission:** Write a small custom macro, and take a careful, contained look at
 an unsafe block.*/

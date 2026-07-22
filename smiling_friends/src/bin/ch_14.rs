@@ -1,7 +1,7 @@
 /* Package the Agency Toolkit
 
-**The bit:** Other branches want to use the same tools this branch built — time to
-package it up properly instead of copy-pasting files.
+**The bit:** A rival friendship agency across town heard about your cheer-up formula and
+wants to license it — which means it actually has to work outside of one messy file.
 
 **Your mission:** Turn your reusable logic into a proper library crate.*/
 

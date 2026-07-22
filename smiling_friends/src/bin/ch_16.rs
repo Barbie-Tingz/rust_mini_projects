@@ -1,7 +1,7 @@
 /* Multiple Branches, Multiple Crises
 
-**The bit:** Several agency branches are all handling their own disasters at the same
-time, and none of them are waiting around for the others.
+**The bit:** At the exact same moment: Sandwich relapses in Branch A, the pigeon returns
+with a lawyer in Branch B, and the swamp landlord files a second lawsuit in Branch C.
 
 **Your mission:** Simulate multiple branches working concurrently using threads, with
 some shared state between them.*/
